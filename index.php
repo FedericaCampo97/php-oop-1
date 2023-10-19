@@ -30,5 +30,9 @@ class Movie
 }
 
 $movie = new Movie("una notte al musero", 120, 4, "commedia");
+echo (json_encode($movie));
+echo ('<br>');
 $movie2 = new Movie("el camino", 120, 3, "action");
+echo (json_encode($movie2));
+
 ?>
