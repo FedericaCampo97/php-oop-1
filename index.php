@@ -12,7 +12,22 @@ class Movie
 {
     public $title;
     public $duration;
-    public $image;
+    public $stars;
     public $genre;
+
+    function __construct($title, $duration, $stars, $genre)
+    {
+        $this->title = $title;
+        $this->duration = $duration;
+        $this->stars = $stars;
+        $this->genre = $genre;
+    }
+
+    function get_stars()
+    {
+        return $this->stars;
+    }
 }
+
+$movie = new Movie("una notte al musero", 120, 4, "commedia");
 ?>
