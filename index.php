@@ -30,4 +30,5 @@ class Movie
 }
 
 $movie = new Movie("una notte al musero", 120, 4, "commedia");
+$movie2 = new Movie("el camino", 120, 3, "action");
 ?>
